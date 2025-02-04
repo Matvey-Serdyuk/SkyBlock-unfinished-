@@ -1,0 +1,26 @@
+name: SkyBlock
+version: '${project.version}'
+main: steelcraft.main.Main
+api-version: 1.13
+authors: [ SteelK1ng ]
+description: SkyBlock 1.13.2 for sever
+
+commands:
+  is:
+    description: Island command
+    usage: /is <args>
+  shop:
+    description: open shop menu
+    usage: /shop
+  ec:
+    description: open custom enchants menu
+    usage: /ec
+  test:
+    description: command for testing
+    usage: /test
+  bs:
+    description: open bs
+    usege: /bs
+  ah:
+    description: open main auction menu
+    usege: /ah <args>
